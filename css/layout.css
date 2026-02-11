@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f4f6ff;
+}
+
+header {
+  background: linear-gradient(90deg, #ff512f, #dd2476);
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+nav {
+  background: #1e1e2f;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 6px 12px;
+  border-radius: 20px;
+}
+
+nav a:hover {
+  background: #ff9800;
+}
+
+.dashboard {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.box {
+  background: white;
+  margin: 15px;
+  padding: 25px;
+  width: 150px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  font-size: 18px;
+}
+
+.box span {
+  font-size: 28px;
+  color: #ff416c;
+}
