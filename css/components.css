@@ -1,0 +1,36 @@
+body {
+  font-family: Arial;
+  background: #eef2ff;
+  padding: 20px;
+}
+
+h2 {
+  color: #3a0ca3;
+}
+
+.card {
+  background: linear-gradient(135deg, #43cea2, #185a9d);
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+  width: 250px;
+  display: inline-block;
+  margin: 15px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.card a {
+  color: yellow;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.pending {
+  color: red;
+  font-weight: bold;
+}
+
+.done {
+  color: green;
+  font-weight: bold;
+}
